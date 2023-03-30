@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Patua+One&family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Patua One", cursive;
+}
+
+.carousel img {
+  height: 50vh;
+}
+
+.commercial {
+  height: 500px;
+}
+
+.icon {
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel img {
+    height: 65vh;
+  }
+  aside {
+    width: 40vw;
+  }
+  main {
+    width: 60vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .carousel img {
+    height: 75vh;
+  }
+  aside {
+    width: 30vw;
+  }
+  main {
+    width: 70vw;
+  }
+}
